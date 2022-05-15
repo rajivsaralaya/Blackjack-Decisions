@@ -5,12 +5,13 @@ from utils import player_showcard2
 from utils import Player
 from utils import Question
 from utils import blackjack
-
+#all about code quality - not having too much duplication
 
 Dealer
 Player
 Question
 
+#code telling the best decisions for player based on cards
 if Question == "Hit" or "Stay" or "Split":
     if player_showcard1 == player_showcard2 and player_showcard1 > dealer_showcard:
         print("The best decision here is to split.")
@@ -23,6 +24,7 @@ if Question == "Hit" or "Stay" or "Split":
     elif player_showcard1 + player_showcard2 < 10 + dealer_showcard:
         print("The dealer has a good position. Most of the time you want to hit.")
  
+ #if user inputs something invalid
 else:
     print("That is not a valid choice. Try Again.")
     exit()             
