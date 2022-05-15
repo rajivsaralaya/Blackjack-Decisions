@@ -10,14 +10,16 @@ player_showcard2 = (random.choice(d))
 
 Player = print("The player's faceup cards are", player_showcard1, "and", player_showcard2,".")
 
-Question = input("What would you do in this situation? Hit, stay, or split?")
+Question = input("What would you do in this situation? Hit, Stay, or Split?")
  
-if player_showcard1 == ("11") and player_showcard2 == ("10"):
-    Print("You have blackjack! You win!")
-elif player_showcard1 == ("10") and player_showcard2 == ("11"):
-    Print("You have blackjack! You win!")
-else:
-    Question
+ 
+def blackjack():
+    if player_showcard1 == ("11") and player_showcard2 == ("10"):
+        Print("You have blackjack! You win!")
+    elif player_showcard1 == ("10") and player_showcard2 == ("11"):
+        Print("You have blackjack! You win!")
+    else:
+        Question
             
     
         
