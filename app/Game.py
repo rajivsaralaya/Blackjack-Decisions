@@ -9,6 +9,7 @@ from utils import blackjack
 
 Dealer
 Player
+blackjack()
 Question
 
 if Question == "Hit" or "Stay" or "Split":
