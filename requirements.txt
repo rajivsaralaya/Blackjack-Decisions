@@ -1,0 +1,13 @@
+#requirements.txt file
+
+#environment variable management (".env") file approach:
+python-dotenv
+
+#web requests / fetching data:
+requests
+
+#data processing:
+pandas
+
+#quality control
+pytest
