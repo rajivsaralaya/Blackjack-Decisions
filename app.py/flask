@@ -1,0 +1,9 @@
+from flask import flask
+
+app = flask(_decisions-blackjack_)
+
+
+app.route('/')
+def hello():
+    return('Hello World')
+

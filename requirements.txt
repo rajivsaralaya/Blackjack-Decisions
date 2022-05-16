@@ -13,3 +13,7 @@ pandas
 pytest
 
 django
+
+flask
+
+jinja

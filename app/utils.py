@@ -12,8 +12,7 @@ player_showcard2 = (random.choice(d))
 Player = print("The player's faceup cards are", player_showcard1, "and", player_showcard2,".")
 
 #gives user the choice to make the right decision
-Question = input("What would you do in this situation? Hit, Stay, or Split?")
- 
+Question = print("What would you do in this situation? Hit, Stay, or Split?")
  #no need to make an input if the player has blackjack
 def blackjack():
     if player_showcard1 == ("11") and player_showcard2 == ("10"):
